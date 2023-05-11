@@ -1,0 +1,95 @@
+@import "button.css";
+
+.header {
+  height: 72px;
+  background: #fff;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapper {
+  width: 956px;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0 15px;
+}
+
+.uber_link {
+  width: 121px;
+  height: 13px;
+  align-self: center;
+}
+
+.header__logo {
+  width: 121px;
+  height: 13px;
+}
+
+.header__input {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.header__input::placeholder {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+}
+
+.left_input {
+  width: 65px;
+  height: 40px;
+  padding: 8px 11px;
+}
+
+.header__span {
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  margin: 28px 9px;
+  position: relative;
+  top: 3px;
+  left: 1.5px;
+}
+
+.header__label {
+  position: relative;
+}
+
+.header__label:before {
+  content: url("../images/location.svg");
+  position: absolute;
+  top: 6.79px;
+  left: 12px;
+}
+
+.right_input {
+  width: 292px;
+  height: 40px;
+  padding: 8px 68px 8px 36px;
+}
+
+.user_opportunities {
+  display: flex;
+}
+
+.button--black {
+  background-color: #262626;
+  color: #fff;
+  margin-left: 16px;
+}
+
+.basket {
+  width: 19px;
+  height: 22px;
+  margin: 9px 9px 9px 27px;
+}

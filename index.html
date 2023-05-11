@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uber eats</title>
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+  <div class="header__wrapper">
+    <a class="uber_link" href=#>
+      <img src="./images/uber_eats_logo.svg" alt="Uber" class="header__logo">
+    </a>
+
+    <div class="delivery-info">
+      <label>
+        <input class="header__input left_input" type="text" placeholder="ASAP">
+      </label>
+      <span class="header__span">to</span>
+      <label class="header__label">
+        <input class="header__input right_input" type="text" placeholder="ul. Bolshaya Dmitrovka,22 ">
+      </label>
+    </div>
+
+    <div class="user_opportunities">
+      <button class="button header_button">Sign In</button>
+      <button class="button header_button button--black">Register</button>
+      <a class="basket" href=#>
+        <img src="./images/basket.svg" alt="basket">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="cards">
+  <div class="cards_wrapper">
+    <div class="search_wrapper">
+      <label class="search__label">
+        <input type="text" class="search" placeholder="Search for restaurant or cuisine">
+      </label>
+    </div>
+
+    <span class="cards__title">Moscow Restaurants</span>
+
+    <ul class="cards_list">
+      <li class="card">
+        <a href=# class="card card__link">
+          <img src="./images/mcdonalds.png" alt="food_picture">
+          <span class="card__restaurant">Макдоналдс - Газетный</span>
+          <span class="card__category">₽₽ • Бургеры</span>
+          <span class="card__time">25 - 35 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href=# class="card card__link">
+          <img src="./images/dimsum.png" alt="food_picture">
+          <span class="card__restaurant">DimSum & Co — ЦДМ</span>
+          <span class="card__category">₽ • Японская • Китайская • Азиатская</span>
+          <span class="card__time">40 - 50 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class="card card__link">
+          <img src="./images/dvizh.png" alt="food_picture">
+          <span class="card__restaurant">ДвижОК — Манежная</span>
+          <span class="card__category">₽ • Американская • Европейская</span>
+          <span class="card__time">35 - 45 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/nha.png" alt="food_picture">
+          <span class="card__restaurant">НЯ — NHA</span>
+          <span class="card__category">₽₽ • Вьетнамская</span>
+          <span class="card__time">30 - 40 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/dzi.png" alt="food_picture">
+          <span class="card__restaurant">Точка Дзы — Цветной</span>
+          <span class="card__category">₽₽ • Вьетнамская</span>
+          <span class="card__time">40 - 50 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/cinnabon.png" alt="food_picture">
+          <span class="card__restaurant">Cinnabon</span>
+          <span class="card__category">₽ • Выпечка • Десерты • Капкейки</span>
+          <span class="card__time">25 - 35 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/lovepizza.png" alt="food_picture">
+          <span class="card__restaurant">PIZZALOVE</span>
+          <span class="card__category">₽₽ • Пицца</span>
+          <span class="card__time">15 - 25 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/zyu.png" alt="food_picture">
+          <span class="card__restaurant">Zю кафе — Тверская</span>
+          <span class="card__category">₽₽ • Японская</span>
+          <span class="card__time">25 - 35 Min</span>
+        </a>
+      </li>
+
+      <li class="card">
+        <a href="" class=" card card__link">
+          <img src="./images/barbq.png" alt="food_picture">
+          <span class="card__restaurant">Bar BQ Cafe — Манежная</span>
+          <span class="card__category">₽₽₽ • Европейская</span>
+          <span class="card__time">30 - 40 Min</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__wrapper">
+    <div><img class="footer__logo" src="./images/uber_eats_logo__white.svg" alt="logo"></div>
+  <div><hr class="line"></div>
+
+  <div class="footer_container">
+    <div>
+        <div>
+          <label class="lang_label"></label>
+            <select name="language" class="language_choice", id="language_choice">
+            <option value="english">ENGLISH</option>
+            <option value="russian">RUSSIAN</option>
+            <option value="german">GERMAN</option>
+            <option value="spanish">SPANISH</option>
+            </select>
+      </div>
+        <div class="footer_text">
+        <div class="footer_hash"><span class="footer_green">#</span><span>UberEats</span></div>
+        </div>
+
+        <div> <img class="footer_icon" src="./images/facebook.svg"> 
+          <img class="footer_icon" src="./images/twitter.svg">
+          <img class="footer_icon" src="./images/reddit.svg">         
+          </div>
+
+    </div>
+
+    <div class="footer_column">
+        <div class="footer_text">About UberEats</div>
+        <div class="footer_text">Become a delivery partner</div>
+        <div class="footer_text"> Become a restaurant partner</div>
+    </div>
+
+    <div class="footer_column">
+        <div class="footer_text">See all cities</div>
+        <div class="footer_text">Pricing</div>
+        <div class="footer_text">Help</div>
+        <div class="footer_text">FAQs</div>
+    </div>
+
+  </div>
+  <div><hr class="line"></div>
+  <div class="markets">
+    <img src="./images/google.svg">
+    <img src="./images/appstore.svg">
+  </div>
+  <div><hr class="line"></div>
+  <div class="footer_text">
+    <span style="margin-right: 174px;">© 2017 Uber Technologies Inc.</span>
+    <span style="margin-right: 288px;">Privacy</span>
+    <span>Terms</span>
+  </div>
+</footer>
+</body>
+</html>

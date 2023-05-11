@@ -1,0 +1,98 @@
+.footer {
+    height: 540px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__wrapper {
+    width: 956px;
+    margin-top: 50px;
+  }
+  
+  .footer__logo {
+    margin-top: 15px;
+    width: 192px;
+    height: 20px;
+    cursor:pointer;
+  }
+
+  .line {
+    width: 1px;
+    margin-top: 40px;
+    border-right: 956px solid #757575;
+  }
+
+  .footer_text{
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    margin-top: 23px;
+    cursor:pointer;
+  }
+
+  .footer_column{
+    margin-right: 50px;
+    margin-top: 17px;
+  }
+
+  .footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_green{
+    color: #49A144;
+  }
+
+  .footer_hash{
+    margin-top: 33px;
+    cursor: default;
+  }
+
+  .language_choice{
+    box-sizing: border-box;
+    width: 227px;
+    height: 40px;
+    left: 81px;
+    top: 1617px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    border-color: #3B3B3B;
+    color: white;
+    padding: 10px 48px;
+    font-family: roboto, sans-serif;
+    margin-top: 32px;
+    font-size: 13px;
+    font-weight: 400px;
+  }
+
+  .icon{
+    margin-top: 20px;
+  }
+
+  .lang_label {
+    border:0px;
+    content: url("../images/Shape.svg");
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 45px;
+    background-color: #3B3B3B;
+    color: white;
+    font: bold 1.5em sans-serif;
+  }
+
+  .footer_icon {
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+
+  .markets {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40px;
+  }

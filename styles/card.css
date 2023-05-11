@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    padding: 0 0 21px;
+    text-decoration: none;
+  }
+  
+  .card__restaurant {
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-top: 16px;
+  }
+  
+  .card__category {
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757575;
+    margin: 4px 0;
+  }
+  
+  .card__time {
+    font-family: roboto, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1d1d1d;
+  }
